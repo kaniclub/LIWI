@@ -1,0 +1,20 @@
+{
+  "item.name": "つながる窓（LinkWindow）",
+  "config.key.name": "窓の設定を開くキー",
+  "config.key.description": "設置した窓にカーソルを合わせて押すキー。既定値はF6。",
+  "host-only": "現在、窓の設定を変更できるのはホストのみです。",
+  "menu.material": "全体の外枠",
+  "menu.size": "サイズ",
+  "size.0": "大", "size.1": "中",
+  "material.0": "木の枠", "material.1": "鉄の枠", "material.2": "枠なし",
+  "menu.vertical": "縦：{{count}}本",
+  "menu.horizontal": "横：{{count}}本",
+  "menu.close": "完了",
+  "menu.saved": "- / +で本数調整。0本で格子なし。即時反映。",
+  "shape.0": "角形", "shape.1": "丸形"
+}
+
+
+
+
+

@@ -1,0 +1,23 @@
+{
+  "Name": "LinkWindow",
+  "Author": "kaniclub",
+  "Version": "1.0.0",
+  "Description": "Connect modular wall windows and customize their frames, shapes, size and bars, with TrueWindow support.",
+  "UniqueID": "kaniclub.LinkWindow",
+  "EntryDll": "LinkWindow.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": ["Nexus:53931"],
+  "Dependencies": [
+    {
+      "UniqueID": "spacechase0.GenericModConfigMenu",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "kaniclub.TrueWindow",
+      "MinimumVersion": "1.0.6",
+      "IsRequired": true
+    }
+  ]
+}
+
+

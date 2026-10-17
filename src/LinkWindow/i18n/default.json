@@ -1,0 +1,20 @@
+{
+  "item.name": "LinkWindow",
+  "config.key.name": "Open window settings",
+  "config.key.description": "Press while pointing at a placed window. Default: F6.",
+  "host-only": "Window settings can currently be edited by the host only.",
+  "menu.material": "Outer frame",
+  "menu.size": "Size",
+  "size.0": "Large", "size.1": "Medium",
+  "material.0": "Wood", "material.1": "Iron", "material.2": "None",
+  "menu.vertical": "Vertical: {{count}}",
+  "menu.horizontal": "Horizontal: {{count}}",
+  "menu.close": "Done",
+  "menu.saved": "Use - / + for bars. Zero hides them. Changes apply now.",
+  "shape.0": "Square", "shape.1": "Round"
+}
+
+
+
+
+

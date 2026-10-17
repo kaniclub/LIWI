@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../src/LinkWindow/WindowLayout.cs" Link="WindowLayout.cs" />
+    <Compile Include="../../src/LinkWindow/WindowSettings.cs" Link="WindowSettings.cs" />
+    <Compile Include="../../src/LinkWindow/WindowGeometry.cs" Link="WindowGeometry.cs" />
+    <Compile Include="../../src/LinkWindow/WindowStyle.cs" Link="WindowStyle.cs" />
+    <Compile Include="../../src/LinkWindow/WindowGroup.cs" Link="WindowGroup.cs" />
+    <Compile Include="../../src/LinkWindow/WindowRaster.cs" Link="WindowRaster.cs" />
+    <Compile Include="../../../TWIN/src/TrueWindow/Services/ReadbackRegion.cs" Link="ReadbackRegion.cs" />
+    <Compile Include="../../src/LinkWindow/WindowImageFiles.cs" Link="WindowImageFiles.cs" />
+    <Compile Include="../../../TWIN/src/TrueWindow/Services/ImageSourceOption.cs" Link="ImageSourceOption.cs" />
+    <Compile Include="../../../TWIN/src/TrueWindow/Services/RegisteredImageCatalog.cs" Link="RegisteredImageCatalog.cs" />
+    <Compile Include="../../../TWIN/src/TrueWindow/Integrations/TrueWindowApi.cs" Link="TrueWindowApi.cs" />
+  </ItemGroup>
+</Project>

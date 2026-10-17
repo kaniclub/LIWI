@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>LinkWindow</AssemblyName>
+    <RootNamespace>LinkWindow</RootNamespace>
+    <Version>1.0.0</Version>
+    <EnableHarmony>true</EnableHarmony>
+    <EnableModDeploy>false</EnableModDeploy>
+    <ModZipPath>$(MSBuildThisFileDirectory)..\..\releases\</ModZipPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.4.0" />
+    <None Update="images/README.txt" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>
+
+
